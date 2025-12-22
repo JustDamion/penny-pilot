@@ -45,3 +45,7 @@ Thumbs.db
 
 vite.config.*.timestamp*
 test-output
+
+# Env Files
+.env.development
+.env.production
