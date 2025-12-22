@@ -1,10 +1,11 @@
 {
-  "name": "@org/public-website-e2e",
+  "name": "@damion/web-e2e",
   "version": "0.0.1",
   "private": true,
   "nx": {
     "implicitDependencies": [
-      "@org/public-website"
-    ]
+      "web"
+    ],
+    "name": "web-e2e"
   }
 }

@@ -1,10 +1,10 @@
 {
-  "name": "@org/api-e2e",
+  "name": "@damion/api-e2e",
   "version": "0.0.1",
   "private": true,
   "nx": {
     "implicitDependencies": [
-      "@org/api"
+      "@damion/api"
     ],
     "targets": {
       "e2e": {
@@ -17,8 +17,8 @@
           "passWithNoTests": true
         },
         "dependsOn": [
-          "@org/api:build",
-          "@org/api:serve"
+          "@damion/api:build",
+          "@damion/api:serve"
         ]
       }
     }

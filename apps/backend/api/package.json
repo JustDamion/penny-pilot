@@ -1,5 +1,5 @@
 {
-  "name": "@org/api",
+  "name": "@damion/api",
   "version": "0.0.1",
   "private": true,
   "nx": {
@@ -46,15 +46,15 @@
           "build"
         ],
         "options": {
-          "buildTarget": "@org/api:build",
+          "buildTarget": "@damion/api:build",
           "runBuildTargetDependencies": false
         },
         "configurations": {
           "development": {
-            "buildTarget": "@org/api:build:development"
+            "buildTarget": "@damion/api:build:development"
           },
           "production": {
-            "buildTarget": "@org/api:build:production"
+            "buildTarget": "@damion/api:build:production"
           }
         }
       }

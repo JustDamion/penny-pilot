@@ -4,16 +4,16 @@
   "files": [],
   "references": [
     {
-      "path": "./apps/frontend/public-website-e2e"
-    },
-    {
-      "path": "./apps/frontend/public-website"
-    },
-    {
       "path": "./apps/backend/api-e2e"
     },
     {
       "path": "./apps/backend/api"
+    },
+    {
+      "path": "./apps/frontend/web-e2e"
+    },
+    {
+      "path": "./apps/frontend/web"
     }
   ]
 }

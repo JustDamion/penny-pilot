@@ -4,9 +4,9 @@
     {
       "type": "node",
       "request": "launch",
-      "name": "Debug @org/api with Nx",
+      "name": "Debug @damion/api with Nx",
       "runtimeExecutable": "bun",
-      "runtimeArgs": ["nx", "serve", "@org/api"],
+      "runtimeArgs": ["nx", "serve", "@damion/api"],
       "env": {
         "NODE_OPTIONS": "--inspect=9229"
       },
