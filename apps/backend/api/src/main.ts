@@ -1,16 +1,13 @@
-/**
- * This is not a production server yet!
- * This is only a minimal backend to get started.
- */
-
 import express from 'express';
 import * as path from 'node:path';
 
 const app = express();
+const userRouter = require('./routes/users');
+app.use('/users', userRouter);
 
 app.use('/assets', express.static(path.join(__dirname, 'assets')));
 
-app.get('/api', (req, res) => {
+app.get('/', (req, res) => {
   res.send({ message: 'Welcome to api!' });
 });
 
