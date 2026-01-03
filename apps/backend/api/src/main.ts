@@ -1,10 +1,11 @@
 import express from 'express';
 import * as path from 'node:path';
 
-const app = express();
 const userRouter = require('./routes/users');
-app.use('/users', userRouter);
 
+const app = express();
+
+app.use('/users', userRouter);
 app.use('/assets', express.static(path.join(__dirname, 'assets')));
 
 app.get('/', (req, res) => {
