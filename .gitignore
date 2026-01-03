@@ -47,5 +47,6 @@ vite.config.*.timestamp*
 test-output
 
 # Env Files
+.env
 .env.development
 .env.production

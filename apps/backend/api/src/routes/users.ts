@@ -1,12 +1,6 @@
 import express from 'express';
-const pgp = require('pg-promise')();
 
-const dbUsername = process.env.DB_USERNAME;
-const dbPassword = process.env.DB_PASSWORD;
-const dbPort = process.env.DB_PORT;
-const connectionString = `postgres://${dbUsername}:${dbPassword}@localhost:${dbPort}`;
-const db = pgp(connectionString);
-
+const db = require('../db')
 const router = express.Router();
 
 router.post('/', (req, res) => {

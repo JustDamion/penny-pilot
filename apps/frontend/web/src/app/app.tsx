@@ -1,11 +1,18 @@
-// Uncomment this line to use CSS modules
-// import styles from './app.module.scss';
-import NxWelcome from './nx-welcome';
-
 export function App() {
   return (
     <div>
-      <NxWelcome title="@damion/web" />
+      <div>
+        <input type="text" placeholder="email" />
+        <input type="password" placeholder="password" />
+        <button>Sign In</button>
+      </div>
+      <div>
+        <input type="text" placeholder="first name" />
+        <input type="text" placeholder="last name" />
+        <input type="text" placeholder="email" />
+        <input type="text" placeholder="password" />
+        <button>Sign Up</button>
+      </div>
     </div>
   );
 }
